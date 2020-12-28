@@ -251,7 +251,7 @@ extern int MAX_PC_RACE;
 extern int MAX_PC_CLASS;
 extern bool mud_down;
 
-#define MAX_LEVEL		   65
+#define MAX_LEVEL		   72
 #define MAX_CLAN		   50
 #define MAX_DEITY		   50
 #define MAX_CPD			    4 /* Maximum council power level difference */
@@ -297,7 +297,7 @@ extern bool DONT_UPPER;
  * SMAUG Version -- Scryn
  */
 #define SMAUG_VERSION_MAJOR "1"
-#define SMAUG_VERSION_MINOR "9 FUSS"
+#define SMAUG_VERSION_MINOR "10 FUSS / Nerea"
 
 /* 
  * Stuff for area versions --Shaddai

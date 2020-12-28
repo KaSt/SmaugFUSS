@@ -1819,9 +1819,10 @@ void show_title( DESCRIPTOR_DATA * d )
 
    if( !IS_SET( ch->pcdata->flags, PCFLAG_NOINTRO ) )
    {
-      if( xIS_SET( ch->act, PLR_RIP ) )
-         send_rip_title( ch );
-      else if( xIS_SET( ch->act, PLR_ANSI ) )
+      //if( xIS_SET( ch->act, PLR_RIP ) )
+      //   send_rip_title( ch );
+      //else 
+      if( xIS_SET( ch->act, PLR_ANSI ) )
          send_ansi_title( ch );
       else
          send_ascii_title( ch );
@@ -2366,7 +2367,7 @@ void nanny_get_new_race( DESCRIPTOR_DATA * d, const char *argument )
       return;
    }
 
-   write_to_buffer( d, "\r\nWould you like RIP, ANSI or no graphic/color support, (R/A/N)? ", 0 );
+   write_to_buffer( d, "\r\nWould you like ANSI or no graphic/color support, (A/N)? ", 0 );
    d->connected = CON_GET_WANT_RIPANSI;
 }
 
@@ -2379,11 +2380,12 @@ void nanny_get_want_ripansi( DESCRIPTOR_DATA * d, const char *argument )
 
    switch ( argument[0] )
    {
-      case 'r':
-      case 'R':
-         xSET_BIT( ch->act, PLR_RIP );
-         xSET_BIT( ch->act, PLR_ANSI );
-         break;
+      
+      //case 'r':
+      //case 'R':
+      //   xSET_BIT( ch->act, PLR_RIP );
+      //   xSET_BIT( ch->act, PLR_ANSI );
+      //   break;
       case 'a':
       case 'A':
          xSET_BIT( ch->act, PLR_ANSI );
@@ -2419,8 +2421,9 @@ void nanny_press_enter( DESCRIPTOR_DATA * d, const char *argument )
       REMOVE_BIT( ch->pcdata->flags, PCFLAG_WATCH );
 
    set_pager_color( AT_PLAIN, ch );
-   if( xIS_SET( ch->act, PLR_RIP ) )
-      send_rip_screen( ch );
+
+   //if( xIS_SET( ch->act, PLR_RIP ) )
+   //   send_rip_screen( ch );
    if( xIS_SET( ch->act, PLR_ANSI ) )
       send_to_pager( "\033[2J", ch );
    else
