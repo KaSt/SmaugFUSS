@@ -2759,7 +2759,7 @@ bool check_parse_name( const char *name, bool newchar )
    /*
     * Length restrictions.
     */
-   if( strlen( name ) < 3 )
+   if( strlen( name ) < 2 )
       return FALSE;
 
    if( strlen( name ) > 12 )
