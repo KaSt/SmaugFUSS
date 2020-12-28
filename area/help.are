@@ -4958,20 +4958,38 @@ resides in a chamber which prevents the usage of magic...
 
 -1 GREETING~
 .
-         /     _      _            _      _    _____
-        /      |\    /|     /\     |      |   /     \     ***************
-       /       | \  / |    /  \    |      |  |            *   \\._.//   *
-      /        |  \/  |   /    \   |      |  |            *   (0...0)   *
-     /_______  |      |  |______|  |      |  |            *    ).:.(    *
-            /  |      |  |      |  |      |  |            *    {o o}    *
-           /   |      |  |      |  |      |  |     __     *   / ' ' \   *
-          /    |      |  |      |  |      |  |       |    *-'^^.VxvxV.^^'-*
-         /     |      |  |      |   \____/    \_____/     ***************
-        / 
+ooooo                                                         .o8       
+`888'                                                        "888       
+ 888          .ooooo.   .oooooooo  .ooooo.  ooo. .oo.    .oooo888       
+ 888         d88' `88b 888' `88b  d88' `88b `888P"Y88b  d88' `888       
+ 888         888ooo888 888   888  888ooo888  888   888  888   888       
+ 888       o 888    .o `88bod8P'  888    .o  888   888  888   888       
+o888ooooood8 `Y8bod8P' `8oooooo.  `Y8bod8P' o888o o888o `Y8bod88P"      
+                       d"     YD                                        
+                       "Y88888P'                                        
+                                                                        
+           .o88o.                                                       
+           888 `"                                                       
+ .ooooo.  o888oo                                                        
+d88' `88b  888                                                          
+888   888  888                                                          
+888   888  888                                                          
+`Y8bod8P' o888o                                                         
+                                                                        
+                                                                        
+                                                                        
+ooooo      ooo                                                          
+`888b.     `8'                                                          
+ 8 `88b.    8   .ooooo.  oooo d8b  .ooooo.   .oooo.                     
+ 8   `88b.  8  d88' `88b `888""8P d88' `88b `P  )88b                    
+ 8     `88b.8  888ooo888  888     888ooo888  .oP"888                    
+ 8       `888  888    .o  888     888    .o d8(  888                    
+o8o        `8  `Y8bod8P' d888b    `Y8bod8P' `Y888""8o                   
+                                                                        
 
-SmaugFUSS 1.9 changes by Samson. Other bugfixes and changes provided by
-various members of the SMAUG community. Their contributions are greatly
-appreciated.
+Nereamud, hacks by Ka, based on SmaugFUSS 1.9 changes by Samson. 
+Other bugfixes and changes provided by various members of the SMAUG community.
+Their contributions are greatly appreciated.
 SMAUG 1.4 written by Thoric (Derek Snider) with Altrag, Blodkai, Haus, Narn,
 Scryn, Swordbearer, Tricops, Gorog, Rennard, Grishnakh, Fireblade and Nivek.
 Original MERC 2.1 code by Hatchet, Furey, and Kahn.
